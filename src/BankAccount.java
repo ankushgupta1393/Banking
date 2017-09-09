@@ -18,10 +18,13 @@ public class BankAccount extends Bank {
 		this.AccNo = num;
 	}*/
 	
-	public void getname(){
+	// there must change void to String,and different methods...for example:in methods getBalance
+	  
+	public String getname(){
 		System.out.println("Enter Account holder name");
 		String name=input.nextLine();
 		setname(name);
+		return this.AccHolderName;
 		
 				}
 	public void getAccNo(){
