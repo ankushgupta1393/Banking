@@ -6,11 +6,11 @@ public  class ByName implements Comparator<BankAccount>{
 	@Override
 	public int compare(BankAccount e1, BankAccount e2) {
 		if(e1.getName().length() < e2.getName().length()){
-			            return 1;
-			        } else {
-			            return -1;
-			        }
-		return 0;
+			        //    return 1;
+			     //   } else {
+			          //  return -1;
+			       // }
+		//return 0;
 	}
 	
 
