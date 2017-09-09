@@ -65,7 +65,7 @@ return false;
 }
 public static void main(String[] args) throws Exception
 {
-Bank obj=new Bank();
+Bank1 obj=new Bank1();
 BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 System.out.print("Enter theew  Operation to be Performed\n1.New Account\n2.Deposit Money\n3.Withdraw Money\n4.Search\n5.Exit\n");
 int choice;
